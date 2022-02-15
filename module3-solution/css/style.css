@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: darkorange;
+}
+
+.navbar {
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    height: 100%;
+}
+
+button.navbar-toggler{
+    height: 50px;
+    width: 60px;
+    border: 2px solid black;
+    padding: 0 8px;
+}
+
+.navbar-toggler {
+    margin-bottom: 10px;
+}
+
+.navbar-toggler-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-bar {
+    display: block;
+    margin: 10px 0;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#navbarNav {
+    background-color: darkgreen;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:visited, .nav-link:link {
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.nav-link:hover, .nav-link:active {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#navbar-nav-container {
+    width: 100%;
+}
+
+.navbar-nav:last-child {
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 10px 0 30px;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.section-contents {
+    min-height: 700px;
+    background-color: rgb(13, 158, 98);
+    padding: 10px;
+    position: relative;
+}
+
+.back-to-top {
+    margin: 10px auto 0;
+    border: 1px solid black;
+    background-color: tomato;
+    width: 50%;
+}
+
+.back-to-top:link, .back-to-top:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.back-to-top:hover, .back-to-top:active {
+    color: brown;
+}
